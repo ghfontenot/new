@@ -1,0 +1,313 @@
+/*************************
+Page Styles 
+*************************/
+
+html, body, #wrapper {
+	height: 100%;
+}
+
+body > #wrapper {
+	height: auto;
+	min-height: 100%;
+}
+
+body {
+	background-color: #20457C;
+}
+
+#wrapper {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+header {
+	font-family: 'Allan', cursive;
+	font-size: 5.7em;
+	font-weight: bold;
+	color: #ECDFBD;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	width: 65%;
+	font-style: bold;
+	color: #FB6648;
+	font-size: 1.6em;
+}
+
+h1, h2, h3, p, li {
+	font-family: 'Cardo', serif;
+	color: #ECDFBD;
+}
+
+#content {
+	padding-bottom: 3em;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+/*************************
+Navigation Styles
+*************************/
+
+#nav {
+	margin-top: 20px;
+	list-style: none;
+	float: right;
+}
+
+#nav li {
+	float: left;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+nav a {
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #ECDFBD;
+}
+
+/*************************
+Styling Links
+*************************/
+
+.selected {
+	color: #FB6648;
+}
+
+a:hover {
+	color: #FB6648;
+}
+
+/*************************
+Styling the Footer
+*************************/
+
+.main-footer {
+	clear: both;
+ 	position: relative;
+ 	z-index: 10;
+ 	height: 3em;
+ 	margin-top: -3em;
+ 	text-align: center;
+ 	padding-top: 50px;
+ 	font-size: 1.5em;
+ 	font-family: 'Allan', cursive;
+ 	color: #ECDFBD;
+}
+
+/*************************
+Home Page
+*************************/
+
+#leftContentDiv, #rightContentDiv {
+	margin: 0;
+	padding: 5%;
+	width: 43%;
+	float: left;
+	display: inline-block;
+}
+
+#leftContentDiv {
+	float: left;
+	padding-right: 15px;
+	padding-top: 50px;
+}
+
+#rightContentDiv {
+	float: right;
+	padding-left: 15px;
+}
+
+/*************************
+Biographies/About Us Page
+*************************/
+
+#bio_pics {
+	margin: 0;
+	padding: 3%;
+	list-style: none;
+	width: 43%;
+	display: inline-block;
+	float: left;
+}
+
+#bio_graphs {
+	margin: 0;
+	padding: 3%;
+	list-style: none;
+	width: 43%;
+	display: inline-block;
+	float: right;
+}
+
+#bio_graphs > p {
+	font-size: 1.3em;
+}
+
+section > h2 {
+	color: #FB6648;
+}
+
+/*************************
+Contacts Page
+*************************/
+
+.contacts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.contacts a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contacts > a {
+	color: #ECDFBD;
+}
+
+#primary {
+	float: left;
+	width: 49%;
+}
+
+#secondary {
+	float: right;
+	width: 49%;
+}
+
+/*************************
+Listen Button
+*************************/
+
+button {
+	padding: 10px 15px;
+	background: #4479BA;
+	color: #FFF;
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+button:hover, button:focus {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+
+.button-link:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
+
+#form {
+	list-style: none;
+}
+
+/*************************
+Form
+*************************/
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  background: #ECDFBD;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #ECDFBD;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+select {
+	margin: 10px;
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+#form_head {
+	color: #FB6648;
+}
+
+/*****************
+Responsive CSS
+*****************/
+
+@media screen and (min-width: 480px) {
+  
+
+  
+  header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 60px;
+  }
+  
+
+}
